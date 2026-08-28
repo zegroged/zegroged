@@ -7,6 +7,13 @@ Most of what you'll find here are **shut-down ventures published as reference im
 None of them found a market; that part I got wrong. The engineering is real: production systems
 with paying pilot customers, field-debugged mobile apps, and infrastructure I operated myself.
 
+### Open source
+
+| Contribution | What it is |
+|---|---|
+| [tauri-apps/tauri#15923](https://github.com/tauri-apps/tauri/pull/15923) | A UTF-8 BOM made `tauri.conf.json` fail with an opaque `expected value at line 1 column 1` on a file that looks valid in an editor. Unreported. I traced it to the exact line in `tauri-utils`, fixed it at the shared read boundary so JSON, JSON5 and TOML are all covered, and checked the tests fail without the fix rather than passing vacuously. Approved by a maintainer. |
+| [vacuous-tests-mcp](https://github.com/zegroged/vacuous-tests-mcp) | An MCP server that finds tests which pass no matter what the code does — assertions true by construction, tests with no assertion, empty bodies. I wrote it after finding that exact failure class in my own test suite. Python, Rust and TypeScript. |
+
 ### What I work on
 
 **Systems & security** — Rust, cryptography, anonymity networks. I'm building a serverless,
@@ -30,7 +37,7 @@ marketplaces, payment integrations, mobile clients.
 
 ### Currently
 
-Improving my English, contributing to open source, and looking for remote engineering work —
-security, AI infrastructure, or backend.
+Contributing to open source and looking for remote engineering work — security, AI
+infrastructure, or backend. Improving my English alongside it.
 
 📍 Turkey (UTC+3, overlaps European hours) · 🌐 [trgenci.com](https://trgenci.com)
