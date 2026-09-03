@@ -1,11 +1,19 @@
 ## Hi, I'm Yılmaz Mert
 
 Self-taught software engineer from Turkey. I build and ship full products end to end — backend,
-frontend, mobile, infrastructure — and I run them in production on my own server.
+frontend, mobile, infrastructure.
 
-Most of what you'll find here are **shut-down ventures published as reference implementations**.
-None of them found a market; that part I got wrong. The engineering is real: production systems
-with paying pilot customers, field-debugged mobile apps, and infrastructure I operated myself.
+Three of these I built and still run on my own server, and they are up right now:
+**[enyakinhaliyikamaservisi.com](https://enyakinhaliyikamaservisi.com)** — a carpet-cleaning
+marketplace with live iyzico payments, two Expo apps and 267 commits over 38 days of field
+debugging; **[dijitalkafe.com](https://dijitalkafe.com)** — multi-tenant QR menu and POS, run
+with two pilot cafés; and **[to-p1.com](https://to-p1.com)**.
+
+I stopped selling them. One paying carpet shop and two pilot cafés was as far as the market
+went, and that part I got wrong. The engineering held up: the systems are still serving, the
+mobile clients were debugged against real drivers on real Android phones, and I operated the
+infrastructure myself. Each repository's Status section says exactly where that project stands,
+including the ones that never launched.
 
 ### Open source
 
